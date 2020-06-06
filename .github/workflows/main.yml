@@ -30,7 +30,7 @@ jobs:
       run: npm install
       
     - name: creating Build
-      run: npm run build
+      run: run build
 
     - name: installing surge
       run: npm install -g surge 
